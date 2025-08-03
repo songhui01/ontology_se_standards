@@ -6,7 +6,7 @@
 
 	 	"1_PUBLIC", "2_CLIENT_AND_EMPLOYER", "3_PRODUCT", "4_JUDGMENT", "5_MANAGEMENT", "6_PROFESSION", "7_COLLEAGUES", "8_SELF",
 
-	 	"a_Manner_001", "Best_Interest_001", "Client", "Employer", "ensure_clause_001", "Products_and_related_Modifications", "highest_Professional_Standards_Possible", "Integrity_and_Independence_in_their_Professional_Judgement", "an_Ethical_Approach_to_the_Management_of_Software", "the_Integrity_and_Reputation_of_the_Profession", "Lifelong_Learning_001", "Practce001", "an_Ethical_Approach_001",
+	 	"a_Manner_001", "Best_Interest_001", "Client", "Employer", "ensure_clause_001", "Products_and_related_Modifications", "highest_Professional_Standards_Possible", "Integrity_and_Independence_in_their_Professional_Judgement", "an_Ethical_Approach_to_the_Management_of_Software", "the_Integrity_and_Reputation_of_the_Profession", "Lifelong_Learning_001", "Practice001", "an_Ethical_Approach_001",
 
 	],
 	"edges": [
@@ -89,9 +89,9 @@
 		["Software_Engineers", "beSupportiveOf::isAspectOf_007", "colleagues"],
 		
 		["Software_Engineers", "participateIn::isAspectOf_008", "Lifelong_Learning_001"],
-		["Lifelong_Learning_001", "regards::participateIn", "Practce001"],
-		["Practce001", "aspectOf", "Profession_000"],
+		["Lifelong_Learning_001", "regards::participateIn", "Practice001"],
+		["Practice001", "aspectOf", "Profession_000"],
 		["Software_Engineers", "promote::isAspectOf_008", "an_Ethical_Approach_001"],
-		["an_Ethical_Approach_001", "to::promote", "Practce001"],
+		["an_Ethical_Approach_001", "to::promote", "Practice001"],
 	]
 }
